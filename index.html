@@ -1,50 +1,121 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Album Informationen</title>
+    <title>Plattenladen</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Album Informationen</h1>
+    <h1>Willkommen im Plattenstore!</h1>
+    <nav>
+        <ul>
+            <li><a href="#vinyl">Vinyl</a></li>
+            <li><a href="#cd">CDs</a></li>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
 </header>
 
-<div class="container">
-    <img src="https://upload.wikimedia.org/wikipedia/en/6/67/DS_Brothers_in_Arms.jpg" alt="Album Cover" class="album-cover">
-    <div class="album">
-        <h2>Brothers in Arms</h2>
-        <p>Künstler: Dire Straits</p>
-        <p>Veröffentlichungsdatum: 13.05.1985</p>     
-        <p>Genre: Pop und Rock</p>
-        <p>Anzahl der Songs: Anzahl 1</p>
-        <p>Länge des Albums: 54 min</p>
-        <p>Hits des Albums: Money for Nothing, 
-            Walk of Life, Your Latest Trick, Brothers in Arms</p>
+<section id="vinyl" class="section">
+    <h2>Highlights Vinyl</h2>
+    <div class="products">
+        <div class="product">
+            <img src="Dire Straits.webp" alt="Platzhalterbild" width="150" height="150"> 
+            <h3>Dire Straits</h3>
+            <p>Künstler: Dire Straits</p>
+            <p>Preis: €19,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+        <div class="product">
+            <img src="Love over gold.jpg" alt="Platzhalterbild" width="150" height="150"> 
+            <h3>Love over Gold</h3>
+            <p>Künstler: Dire Straits</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+        <div class="product">
+            <img src="HighundHungrig.jpg" alt="Platzhalterbild" width="150" height="150"> 
+            <h3>High & Hungrig</h3>
+            <p>Künstler: Bonez Mc & Gzuz</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+            <div class="product">
+            <img src="HighundHungrig2.jpg" alt="Platzhalterbild" width="150" height="150"> 
+            <h3>High & Hungrig 2</h3>
+            <p>Künstler: Bonez Mc & Gzuz</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+            <div class="product">
+            <img src="HighundHungrig3.jpg" width="150" height="150"> 
+            <h3>High & Hungrig 3</h3>
+            <p>Künstler: Bonez Mc & Gzuz</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+    <div class="product">
+        <img src="Hollywood.jpg" width="150" height="150"> 
+        <h3>Hollywood</h3>
+        <p>Künstler: Bonez Mc</p>
+        <p>Preis: €24,99</p>
+        <button>Zum Warenkorb hinzufügen</button>
     </div>
+</section>
 
-    <div class="album">
-        <h2>Dire Straits</h2>
-        <p>Künstler: Dire Straits</p>
-        <p>Veröffentlichungsdatum: 07.10.1978</p>
-        <p>Genre: </p>
-        <p>Anzahl der Songs: 9</p>
-        <p>Länge des Albums: 41 min</p>
-        <p>Hits des Albums: Sultains of Swing</p>
+<section id="cd" class="section">
+    <h2>Highlight CDs</h2>
+    <div class="products">
+        <div class="product">
+            <img src="American Dream.jpg" alt="Platzhalterbild" width="150" height="150"> 
+            <h3>American Dream</h3>
+            <p>Künstlername: 21 Savage</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+        <div class="product">
+            <img src="Pink Tape.jpg" alt="CD 2"  width="150" height="150">
+            <h3>Pink Tape</h3>
+            <p>Künstler: Lil Uzi Vert</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+        <div class="product">
+            <img src="Vultures 1.jpg" alt="CD 2"  width="150" height="150">
+            <h3>Vultures 1</h3>
+            <p>Künstler: ¥$, Kanye West & Ty Dolla $ign</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
+        <div class="product">
+            <img src="Utopia.jpg" alt="CD 2"  width="150" height="150">
+            <h3>Utopia</h3>
+            <p>Künstler: Travis Scott</p>
+            <p>Preis: €24,99</p>
+            <button>Zum Warenkorb hinzufügen</button>
+        </div>
     </div>
-    <div class="album">
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/67/DS_Brothers_in_Arms.jpg" alt="Album Cover" class="album-cover">
-        <h2>Album Name 2</h2>
-        <p>Künstler: Künstlername 2</p>
-        <p>Veröffentlichungsdatum: Datum 2</p>
-        <p>Genre: Rock</p>
-        <p>Anzahl der Songs: 9</p>
-        <p>Länge des Albums: 41 min</p>
-        <p>Hits des Albums:</p>
-    </div>
-</div>
+</section>
+
+<section id="about" class="section">
+    <h2>Über uns</h2>
+    <p>Wir haben ein kleines unternehmen aufgebaut für Cd und Platten Verkauf.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Kontakt</h2>
+    <p>Email: davidpondes@gmail.com</p>
+    <p>Adresse: Raabestrasse 22a</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Plattenladen. Alle Rechte vorbehalten.</p>
+    <a href="https://www.instagram.com/pommie.07/" class="cta-button">Mein instagram</a>
+</footer>
 
 </body>
 </html>
